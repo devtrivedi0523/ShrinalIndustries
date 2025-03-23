@@ -147,21 +147,36 @@ const Products = () => {
             <h3 className="text-left mt-1 font-semibold">Variants : </h3>
 
             {/* Product Variants with Images */}
+            {/* Product Variants with Images */}
             <ul className="mt-4 space-y-3">
               {selectedProduct.variants.map((variant, index) => (
                 <li
                   key={index}
-                  className="flex items-center gap-4 bg-gray-100 p-3 rounded-lg shadow-sm hover:shadow-md transition"
+                  className="flex items-center gap-4 bg-gray-100 p-3 rounded-lg shadow-sm hover:shadow-md transition relative"
                 >
-                  <img
-                    src={variant.image}
-                    alt={variant.name}
-                    className="w-16 h-16 object-cover rounded-lg shadow-md"
-                  />
+                  {/* Image Container */}
+                  <div className="relative group">
+                    <img
+                      src={variant.image}
+                      alt={variant.name}
+                      className="w-16 h-16 object-cover rounded-lg shadow-md transition-transform duration-300 group-hover:scale-110"
+                    />
+
+                    {/* Enlarged Image on Hover */}
+                    <div className="absolute top-0 left-20 sm:left-24 w-40 sm:w-56 z-50 hidden group-hover:flex">
+                      <img
+                        src={variant.image}
+                        alt={variant.name}
+                        className="w-full h-auto rounded-lg shadow-xl border border-gray-300 bg-white p-2"
+                      />
+                    </div>
+                  </div>
+
                   <span className="text-gray-800 font-medium">{variant.name}</span>
                 </li>
               ))}
             </ul>
+
 
             {/* Close Button */}
             <button
