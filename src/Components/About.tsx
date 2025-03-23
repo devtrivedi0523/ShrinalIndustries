@@ -60,7 +60,7 @@ const About = () => {
 
           {/* Logo Image (Overlayed) */}
           <img
-            src="/emblem.png"
+            src="/Emblem.png"
             alt="Company Logo"
             className="absolute bottom-0 right-16 w-28 h-28 bg-white rounded-full border shadow-lg"
           />
