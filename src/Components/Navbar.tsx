@@ -39,9 +39,9 @@ const Navbar: React.FC = () => {
 
         {/* Phone Number - Always Visible */}
         <div className="hidden md:flex items-center space-x-6">
-          <a href="tel:+919227027522" className="text-gray-700 hover:text-[#009af1] flex items-center space-x-2">
+          <a href="tel:+91 98250 09480" className="text-gray-700 hover:text-[#009af1] flex items-center space-x-2">
             <FontAwesomeIcon icon={faPhone} />
-            <span className="font-semibold">+91 92 2702 7522</span>
+            <span className="font-semibold">+91 98250 09480</span>
           </a>
         </div>
 

@@ -85,13 +85,21 @@ const Footer = () => {
       </div>
 
       {/* Contact Section */}
-      <div className="container mx-auto mt-5 text-center md:text-left">
+      <div className="container mx-auto mt-2 text-center md:text-left">
         <h3 className="text-lg font-semibold flex items-center gap-2 justify-center md:justify-start">
           <FontAwesomeIcon icon={faPhoneAlt} className="text-blue-500" />
           Contact Number
         </h3>
-        <p className="text-gray-300">+91-92272 42040</p>
-        <p className="text-gray-300">+91-79-48995891</p>
+        <div className="mt-3">
+
+        <p className="text-gray-300">+91 98259 21099</p>
+        <span className="text-sm pl-4"> (Swapnil Sheth)</span>
+        <p className="text-gray-300">+91 98794 08800</p>
+        <span className="text-sm pl-4"> (Kaushil Sheth)</span>
+        <p className="text-gray-300">+91 98257 12666</p>
+        <span className="text-sm pl-4"> (Uchit Sheth)</span>
+        </div>
+
       </div>
 
       {/* Social Media Icons */}

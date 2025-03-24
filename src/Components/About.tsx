@@ -53,7 +53,7 @@ const About = () => {
 
           {/* Main Image */}
           <img
-            src="https://cdn.pixabay.com/photo/2012/11/28/10/32/welding-67640_640.jpg"
+            src="/steptodown.com739731.jpg"
             alt="About Us"
             className="w-80 h-80 rounded-full border-4 border-blue-500 shadow-lg"
           />
@@ -81,7 +81,8 @@ const About = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             viewport={{ once: true }}
           >
-            The company was founded in 1997 and was given the name - Paresh Electricals. Initially, its scope of work included Erection, Commissioning & Maintenance of Infrastructure Machinery such as crushers, batch & hot mix plants, concrete pavers, and generators. Under the name of Paresh Electricals, the company successfully commissioned India's first crusher in Svedala, Germany.
+            The company was founded in 1997 and was given the name - Paresh Electricals. Initially, its scope of work included 
+           <b> Erection, Commissioning & Maintenance of Infrastructure Machinery such as crushers, batch & hot mix plants, concrete pavers, and generators.</b>  Under the name of Paresh Electricals, the company successfully commissioned India's first crusher in Svedala, Germany.
           </motion.p>
           <motion.p
             className="text-gray-700 mb-6"
@@ -90,16 +91,16 @@ const About = () => {
             transition={{ duration: 0.6, delay: 0.4 }}
             viewport={{ once: true }}
           >
-            In 2007, Paresh Electricals was merged with Shrinal Industries which presently deals in Pharmaceutical Chemicals, Paint Chemicals, and Construction Chemicals (Curing Compound).
+            In 2007, Paresh Electricals was merged with Shrinal Industries which presently deals in <b>Pharmaceutical Chemicals, Paint Chemicals, and Construction Chemicals (Curing Compound).</b>
           </motion.p>
 
           {/* Button */}
-          <motion.button
+          {/* <motion.button
             className="px-6 py-3 bg-blue-600 text-white font-semibold rounded-md hover:bg-blue-700 transition"
             whileHover={{ scale: 1.05 }}
           >
             About Us
-          </motion.button>
+          </motion.button> */}
         </motion.div>
       </div>
     </section>

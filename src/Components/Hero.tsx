@@ -18,7 +18,8 @@ const Hero = () => {
       {/* Background Image with Parallax Effect */}
       <motion.div style={{ y }} className="absolute inset-0 w-full h-full">
         <img
-          src="https://cdn.pixabay.com/photo/2018/08/31/19/16/fan-3645379_1280.jpg"
+          // src="/Shrinal New Premises.JPG"
+          src="/Shrinal New Premises.JPG"
           alt="Infrastructure"
           className="w-full h-full object-cover"
         />
@@ -53,7 +54,7 @@ const Hero = () => {
 
 
       {/* Floating Blue Box */}
-      <motion.div
+      {/* <motion.div
         className="absolute top-56 bg-[#009af1] text-[#02084b] p-6 rounded-xl shadow-lg w-2/3 max-w-md sm:w-1/2 sm:left-auto md:w-2/3 lg:w-1/2 xl:w-1/3 xl:top-14 xl:right-10"
         whileHover={{ scale: 1.05 }}  // Slightly enlarges on hover
         transition={{ type: "spring", stiffness: 200, damping: 10 }}  // Smooth animation
@@ -68,7 +69,7 @@ const Hero = () => {
         <button className="mt-4 px-4 py-2 bg-[#02084b] text-white rounded-lg">
           Explore
         </button>
-      </motion.div>
+      </motion.div> */}
 
 
 
