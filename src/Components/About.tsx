@@ -81,8 +81,11 @@ const About = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             viewport={{ once: true }}
           >
-            The company was founded in 1997 and was given the name - Paresh Electricals. Initially, its scope of work included 
-           <b> Erection, Commissioning & Maintenance of Infrastructure Machinery such as crushers, batch & hot mix plants, concrete pavers, and generators.</b>  Under the name of Paresh Electricals, the company successfully commissioned India's first crusher in Svedala, Germany.
+            Founded in 2003, Shrinal Industries presently deals in <b>Pharmaceutical Chemicals, Paint Chemicals and Construction Chemicals (Curing Compound). </b>
+            Formerly known as Paresh Electricals, the proprietary firm's intial scope of work included 
+            <b> Erection, Commissioning & Maintenance of Infrastructure Machinery such as crushers, batch & hot mix plants, concrete pavers and generators. </b>
+            Under the name of Paresh Electricals, the company successfully commissioned India's first crusher of Svedala, Germany.
+
           </motion.p>
           <motion.p
             className="text-gray-700 mb-6"
@@ -91,7 +94,9 @@ const About = () => {
             transition={{ duration: 0.6, delay: 0.4 }}
             viewport={{ once: true }}
           >
-            In 2007, Paresh Electricals was merged with Shrinal Industries which presently deals in <b>Pharmaceutical Chemicals, Paint Chemicals, and Construction Chemicals (Curing Compound).</b>
+            In 2007, 
+            <b> Paresh Electricals was merged with Shrinal Industries, </b> 
+            which now caters to a robust clientele in the chemical industry.
           </motion.p>
 
           {/* Button */}

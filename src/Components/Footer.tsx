@@ -27,8 +27,8 @@ const Footer = () => {
             Address
           </h3>
           <p className="text-gray-300">
-            80, Ashapura Industrial Estate, Nr. Ramol Cross roads, B/h G.I.D.C.
-            Phase IV Vatva, AHMEDABAD - 382445, Gujarat, India
+          5-A Shree Jagannath Industrial Estate, Kamod Dholka Road, Paldi Kankaj, Ahmedabad, Gujarat, 382425
+
           </p>
         </div>
 
@@ -137,7 +137,7 @@ const Footer = () => {
 
       {/* Copyright */}
       <div className="text-center text-gray-400 mt-8 text-sm">
-        Copyright © 2024 All Rights Reserved.
+        Copyright © 2025 All Rights Reserved.
       </div>
     </footer>
 
